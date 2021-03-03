@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto";
+}
+
+.OK {
+  border: 5px solid green;
+  background: white;
+}
+
+.FAIL {
+  border: 5px solid red;
+  background: white;
+}
+
+.result {
+  border-radius: 0.5em;
+  min-height: 2em;
+  padding: 0.5em;
+  margin: 0.25em;
+  font-size: 125%;
+}
+
+.result table {
+  font-size: 100%;
+}
+.result:empty {
+  border: 5px solid red;
+  background: hsl(20, 40%, 80%);
+  text-align: center;
+}
+
+.result:empty::before {
+  content: "TODO: Complete this part";
+}
+
+#ERROR {
+  background: red;
+  color: white;
+  font-size: 144%;
+}
+
+#mocha-report li.suite h1 {
+  font-size: 125%;
+}
+
+#mocha-report .suite ul > li.test h2 {
+  font-size: 100%;
+}
+

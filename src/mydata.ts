@@ -1,0 +1,56 @@
+export interface Atom {
+  name: string;
+  weight: number;
+}
+
+export const atomNames: string[] = [
+  "Aluminum",
+  "Barium",
+  "Carbon",
+  "Dubnium",
+  "Erbium",
+  "Fluor",
+  "Gallium",
+  "Hydrogen",
+  "Helium",
+  "Iron",
+  "Krypton",
+  "Lithium",
+  "Magnesium",
+  "Nitrogen",
+  "Oxygen",
+  "Palladium",
+  "Radon",
+  "Silicon",
+  "Titanium",
+  "Uranium",
+  "Vanadium",
+  "Xenon",
+  "Zinc",
+];
+
+export const atomObjects: Atom[] = [
+  { name: "Aluminum", weight: 26.982 },
+  { name: "Barium", weight: 137.33 },
+  { name: "Carbon", weight: 12.011 },
+  { name: "Dubnium", weight: 268 },
+  { name: "Erbium", weight: 167.26 },
+  { name: "Fluor", weight: 18.988 },
+  { name: "Gallium", weight: 69.723 },
+  { name: "Hydrogen", weight: 1.008 },
+  { name: "Helium", weight: 4.0026 },
+  { name: "Iron", weight: 55.845 },
+  { name: "Krypton", weight: 83.798 },
+  { name: "Lithium", weight: 6.94 },
+  { name: "Magnesium", weight: 24.305 },
+  { name: "Nitrogen", weight: 14.007 },
+  { name: "Oxygen", weight: 15.999 },
+  { name: "Palladium", weight: 106.42 },
+  { name: "Radon", weight: 222 },
+  { name: "Silicon", weight: 28.085 },
+  { name: "Titanium", weight: 47.867 },
+  { name: "Uranium", weight: 238.03 },
+  { name: "Vanadium", weight: 50.942 },
+  { name: "Xenon", weight: 131.29 },
+  { name: "Zinc", weight: 65.38 },
+];
